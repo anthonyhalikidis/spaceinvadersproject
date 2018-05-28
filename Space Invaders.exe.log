@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "spaceinvaders.py", line 626, in <module>
+    self.check_input()
+  File "spaceinvaders.py", line 286, in __init__
+    self.background = image.load('images/background.jpg').convert()
+pygame.error: Couldn't open images/background.jpg
